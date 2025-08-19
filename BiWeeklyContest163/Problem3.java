@@ -18,7 +18,7 @@ class Solution {
             adj.get(edge[1]).add(Arrays.asList(edge[0], 2*edge[2]));
         }
 
-        PriorityQueue<List<Integer>> q = new PriorityQueue <>( (a, b) -> Integer.compare(a.get(1), b.get(1)) );
+        PriorityQueue<List<Integer>> q = new PriorityQueue <>( (a, b) -> a.get(1)-b.get(1));
         boolean[] visited = new boolean[n]; 
         
         q.add(Arrays.asList(0, 0)); // Starting from node 0 with cost 0
