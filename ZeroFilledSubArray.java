@@ -1,4 +1,4 @@
-class Solution {
+class Solution11 {
     public long zeroFilledSubarray(int[] nums) {
         long count=0;
         long zero=0;

@@ -7,7 +7,7 @@ import java.util.Queue;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-class Solution {
+class Solution1 {
     public int minCost(int n, int[][] edges) {
         List<List<List<Integer>>>adj=new ArrayList<>();
         for(int i=0;i<n;i++){

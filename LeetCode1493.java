@@ -1,4 +1,4 @@
-class Solution {
+class Solution7 {
     public int longestSubarray(int[] nums) {
         
         int n=nums.length;

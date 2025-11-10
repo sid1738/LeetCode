@@ -1,4 +1,4 @@
-class Solution {
+class Solution8 {
     private Double[] dp;
 
     private double solve(int total, int n, int k, int maxPts) {

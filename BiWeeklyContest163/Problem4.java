@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class Solution {
+class Solution6 {
     public int dfs(int[][] grid, int i, int j, int k,int[][][]dp) {
         if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length) {
             return Integer.MAX_VALUE;
